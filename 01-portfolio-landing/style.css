@@ -1,0 +1,25 @@
+/* Base styles */
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header, main, footer {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+header {
+  padding-top: 48px;
+}
+
+section {
+  margin-top: 24px;
+  padding-top: 12px;
+  border-top: 1px solid #3333;
+}
+
+h1, h2 { margin: 0 0 12px; }
